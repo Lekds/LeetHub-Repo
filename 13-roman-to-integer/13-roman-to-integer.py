@@ -9,6 +9,6 @@ class Solution:
                 result = result - romandic[s[i]]
         return result
 Task = Solution()
-print(Task.romanToInt("VIII"))
+print(Task.romanToInt("III"))
 print(Task.romanToInt("LVIII"))
 print(Task.romanToInt("MCMXCIV"))
